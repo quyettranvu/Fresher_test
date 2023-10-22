@@ -1,0 +1,154 @@
+/*HomePage*/
+.text-mainpage {
+  text-align: center;
+}
+
+.text-sidebar {
+  cursor: pointer;
+}
+
+/*Exercise 1*/
+.card-container {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  max-width: 400px;
+}
+
+.custom-button {
+  background-color: #503533;
+  color: #efbc8a;
+  transition: color 0.5s;
+}
+
+.custom-button:hover {
+  background-color: #5a413e;
+}
+
+/*Exercise 2*/
+.state-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.state-segment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.state-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .state-segment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .state-switch {
+    margin-top: 10px;
+  }
+}
+
+/*Exercise 3*/
+.hook-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.hook-card-item {
+  max-width: 300px;
+}
+
+.hook-custom-button {
+  background-color: teal;
+  color: #41d1c3;
+  transition: color 0.5s;
+}
+
+@media screen and (max-width: 1000px) {
+  .hook-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .hook-card-item {
+    max-width: 50%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hook-card-item {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hook-card-item {
+    max-width: 100%;
+  }
+}
+
+/*Execise b1*/
+.array-grid-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.array-number-input {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.array-paper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.array-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.array-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #203834;
+  border: 1px solid #203834;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.array-list-container {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .array-paper-container {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .array-paper-container {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
